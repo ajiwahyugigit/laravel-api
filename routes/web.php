@@ -17,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', 'InfoController@index');
+// Route::get('/', '');
+
+Route::get('/student', 'StudentViewController@index');
